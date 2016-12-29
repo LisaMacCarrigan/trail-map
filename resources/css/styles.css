@@ -8,10 +8,44 @@
 
 html, body {
   height: 100%;
+  font-family: sans-serif;
 }
 
 /* ------------------- Header ------------------- */
 
+header {
+  margin: 0;
+  position: fixed;
+  height: 120px;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  text-align: center;
+  background-color: #F8F9FA;
+  -webkit-box-shadow: 0 8px 6px -6px #000;
+  -moz-box-shadow: 0 8px 6px -6px #000;
+  box-shadow: 0 8px 6px -6px #000;
+}
+
+header img {
+  height: 80px;
+  width: auto;
+  padding: 5px;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+header p {
+  font-variant: small-caps;
+  font-size: 15px;
+  font-weight: bold;
+  color: #5B7880;
+  padding: 5px;
+}
 
 
 /* ------------------- Nav ---------------------- */
@@ -37,12 +71,13 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #000;
-  }
+  background-color: #F8F9FA;
+}
 
 footer p {
   line-height: 30px;
-  color: #fff;
+  color: #969696;
   text-align: center;
-  font-size: 0.90em;
+  font-size: 12px;
+  font-variant: small-caps;
 }
